@@ -1,6 +1,5 @@
 package com.example.hibernatedemo.dto;
 
-import com.example.hibernatedemo.model.Mark;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,5 +17,5 @@ public class StudentDto {
 
     private String email;
 
-    private List<Mark> mark;
+    private List<MarkDto> mark;
 }
